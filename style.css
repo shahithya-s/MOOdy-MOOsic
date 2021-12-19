@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0; 
+  font-family: monospace;
+  background-image: url(https://www.whatspaper.com/wp-content/uploads/2021/08/hd-cow-print-wallpaper-whatspaper-8.jpg);
+  background-size: cover;
+  font-size: 120%;
+}
+
+html{
+  background: url(background-image);
+  background-size: cover;
+}
+
+.card {
+  background: #fff1f2;
+  padding: 2em;
+  border-radius: 30px;
+  border-color: #fff1f2;
+  width: 100%;
+  max-width: 600px;
+  max-height: 800px;
+  margin: 0;
+  float: none; 
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 24px;
+  color: black;
+  font-family: sans-serif;
+  width: 120%;
+  height: 150%;
+}
+
+h1{
+  font-weight: 700;
+}
+
+button {
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+button#btn_submit {
+  width: 100%;
+  height: 30px;
+  color: brown;
+  font-family: monospace;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+.btn-success{
+  border-color:white;
+  background-color: white;
+}
+
+select#select_feeling {
+  font-family: monospace;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: white;
+  text-align: center;
+}
+
+.container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+img {
+  border-radius: 10%;
+  width: 150px;
+  height: auto;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+
+
+
